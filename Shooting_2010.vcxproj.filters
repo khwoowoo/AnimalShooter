@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{9af31136-a18b-4059-b0eb-60479a393b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{82ae2c51-8a74-4974-8c1c-d1621352a056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{375553d8-031a-4b92-9373-02fecb12b92f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{7b826751-3832-477c-a614-ad4a25f99224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{170310c2-3e68-4565-ba87-455bd40b83f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\UI">
+      <UniqueIdentifier>{131b221a-4000-4632-b1f3-de457ca07f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Monster">
+      <UniqueIdentifier>{57a8506c-36e5-4eac-b2b0-e47b8f365092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooting.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite2D.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec3Calc.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAtt.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLS.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBackground.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSprite.cpp">
+      <Filter>Object\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAlpha.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBeta.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterGamma.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMiddle.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterWave.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MCISound.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundData.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterLast.cpp">
+      <Filter>Object\Monster</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SingleInstance.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite2D.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec3Calc.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAtt.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLS.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBackground.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberSprite.h">
+      <Filter>Object\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAlpha.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBeta.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterGamma.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMiddle.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterWave.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MCISound.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundData.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterLast.h">
+      <Filter>Object\Monster</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Shooting.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
